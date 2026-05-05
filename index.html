@@ -1,0 +1,32 @@
+<div class="vn-wrap">
+
+  <div class="vn-cg-ph" id="vn-cg-ph">
+    <span>cg-background.png</span>
+    <span style="font-size:10px;color:#3d1a08;">place background here</span>
+  </div>
+  <img id="vn-cg" class="vn-cg" src="cg-background.png" alt="CG"
+       onerror="this.style.display='none';document.getElementById('vn-cg-ph').style.display='flex';"/>
+
+  <div class="vn-dim"></div>
+  <div class="vn-click-area" onclick="skipOrAdvance()"></div>
+
+  <div class="vn-dialogue">
+    <div class="vn-speaker-tab" id="vn-speaker">Lairus</div>
+    <div class="vn-text">
+      <span id="vn-typed"></span><span class="vn-cursor"></span>
+    </div>
+    <div class="vn-controls">
+      <div class="vn-nav">
+        <button class="vn-btn" id="btn-next" onclick="skipOrAdvance()">Next ▸</button>
+      </div>
+      <span class="vn-progress" id="vn-progress">1 / 4</span>
+    </div>
+  </div>
+
+  <div class="vn-sprite-wrap">
+    <img id="vn-sprite" class="vn-sprite" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Gatto_europeo4.jpg/400px-Gatto_europeo4.jpg" alt="Lairus"
+         onerror="this.style.display='none';document.getElementById('vn-sprite-ph').style.display='flex';"/>
+    <div class="vn-sprite-ph" id="vn-sprite-ph">
+      <span>sprite-lairus.png</span>
+    </div>
+  </div>
