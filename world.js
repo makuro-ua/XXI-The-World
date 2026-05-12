@@ -2,7 +2,7 @@ const SCENES = [
   { speaker:'Maria', sprite:'sprite-maria.png', cg:'bg-office.png', text:'Oh.' },
   { speaker:'Maria', sprite:'sprite-maria.png', cg:'bg-office.png', text:'... It glitched..' },
   { speaker:'Lairus', sprite:'sprite-lairus.png', cg:'bg-office.png', text:'Yeah. It happens.' },
-  { speaker:'Lairus', sprite:'', cg:'bg-office.png', text:'BANG!' },
+  { speaker:'Lairus', sprite:'sprite-who.png', cg:'bg-office.png', text:'BANG!' },
   { speaker:'Maria', sprite:'sprite-maria.png', cg:'bg-office.png', text:'LAIRUS???!' },
   { speaker:'Maria', sprite:'sprite-maria.png', cg:'bg-office.png', text:'What is wrong with you????' },
   { speaker:'Lairus', sprite:'sprite-lairus.png', cg:'bg-office.png', text:'What? It\'s how we fix things in DSS. Smack it on the side, the next morning, Domaine replaces it. Easy.' },
@@ -45,11 +45,11 @@ const SCENES = [
   { speaker:'Maria', sprite:'sprite-marias.png', cg:'bg-offices.png', text:'So much so. For the Senior Agent they kept talking about.' },
   { speaker:'Lairus', sprite:'sprite-lairuss.png', cg:'bg-offices.png', text:'You\'re the one who sent them to that inn.' },
   { speaker:'Maria', sprite:'sprite-marias.png', cg:'bg-offices.png', text:'I thought I was bringing them home.' },
-  { speaker:'-', sprite:'sprite-lairuss.png', cg:'bg-dark.png', text:'' },
+  { speaker:'-', sprite:'sprite-who.png', cg:'bg-dark.png', text:'' },
   { speaker:'Maria', sprite:'sprite-marias.png', cg:'bg-offices.png', text:'I thought I was helping.' },
   { speaker:'Lairus', sprite:'sprite-lairuss.png', cg:'bg-offices.png', text:'Everyone thought the same once.' },
-  { speaker:'Klara', sprite:'', text:'Klara' },
-  { speaker:'Klara', sprite:'', cg:'dark.png', text:'021481' },
+  { speaker:'Klara', sprite:'sprite-who.png', text:'Klara' },
+  { speaker:'Klara', sprite:'sprite-who.png', cg:'dark.png', text:'021481' },
 ];
 
 let current=0, typing=false, typeTimer=null, fullText='', charIdx=0;
