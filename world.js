@@ -29,22 +29,24 @@ const SCENES = [
   { speaker:'Mauvry', sprite:'sprite-mauvry.png', cg:'bg-dark.png', text:'YOU—. YOU. YOU PUT ME INTO THIS! THIS IS YOUR FAULT-!' },
   { speaker:'Mauvry', sprite:'sprite-mauvry.png', cg:'bg-dark.png', text:'IT\'S YOU– WHY\'D YOU PUT ME HERE?! WHY\'D YOU PUT US HERE?! WE WERE NOTHING BUT NICE TO YOU- WHAT DID WE DO TO DESERVE THIS?! ARE WE SOME SORT OF A PLAYTHING TO YOU?!' },
   { speaker:'Mauvry', sprite:'sprite-mauvry.png', cg:'bg-dark.png', text:'KLARA\'S DEAD! DEAD! DEAD I TELL YOU, WILLOWS! DEAD, WILLOWS!' },
-  { speaker:'Lairus', sprite:'sprite-lairus.png', cg:'bg-office.png', text:'Miss Willows, your Dimension\'s Computer Unit is anomalous.' },
-  { speaker:'Lairus', sprite:'sprite-lairus.png', cg:'bg-office.png', text:'It\'s infected with some kind of anomaly that acts like a computer virus I assume. It infected Mauvry\'s DSS account and seemingly.. it had replicated the online DSS website.' },
-  { speaker:'Maria', sprite:'sprite-maria.png', cg:'bg-office.png', text:'Is.. is….it really true then..? I– I– Thought- I thought she was only missing– the simulation only said–' },
-  { speaker:'Lairus', sprite:'sprite-lairus.png', cg:'bg-office.png', text:'Agent Klara Dela Flora is dead. She is a casualty of another anomalous entity back at Folier\'s Inn, the Point Zero of the Dimension you sent them to.' },
-  { speaker:'Maria', sprite:'sprite-maria.png', cg:'bg-office.png', text:'.. y..you mean the kid.' },
-  { speaker:'Lairus', sprite:'sprite-lairus.png', cg:'bg-office.png', text:'I will not further disclose any other information about our agents and other classified events.' },
-  { speaker:'Maria', sprite:'sprite-maria.png', cg:'bg-office.png', text:'Those. Are… my friends…..They. Told me things. Stories. About DSS.' },
-  { speaker:'Lairus', sprite:'sprite-lairus.png', cg:'bg-office.png', text:'Well, pardon me, Miss Willows. But from what you just said, you had proven that these agents had breached our Society\'s Protocols.' },
-  { speaker:'Maria', sprite:'sprite-maria.png', cg:'bg-office.png', text:'.. They said something about you too– if you don\'t believe me– you can check the website again. All of the things they told me are there.' },
-  { speaker:'Lairus', sprite:'sprite-lairus.png', cg:'bg-office.png', text:'There is no need.' },
-  { speaker:'Maria', sprite:'sprite-maria.png', cg:'bg-office.png', text:'So much so. For the Senior Agent they kept talking about.' },
-  { speaker:'Lairus', sprite:'sprite-lairus.png', cg:'bg-office.png', text:'You\'re the one who sent them to that inn.' },
-  { speaker:'Maria', sprite:'sprite-maria.png', cg:'bg-office.png', text:'I thought I was bringing them home.' },
-  { speaker:'', sprite:'sprite-lairus.png', cg:'bg-dark.png', text:'' },
-  { speaker:'Maria', sprite:'sprite-maria.png', cg:'bg-office.png', text:'I thought I was helping.' },
-  { speaker:'Lairus', sprite:'sprite-lairus.png', cg:'bg-office.png', text:'Everyone thought the same once.' },
+
+
+  { speaker:'Lairus', sprite:'sprite-lairuss.png', cg:'bg-office.png', text:'Miss Willows, your Dimension\'s Computer Unit is anomalous.' },
+  { speaker:'Lairus', sprite:'sprite-lairuss.png', cg:'bg-office.png', text:'It\'s infected with some kind of anomaly that acts like a computer virus I assume. It infected Mauvry\'s DSS account and seemingly.. it had replicated the online DSS website.' },
+  { speaker:'Maria', sprite:'sprite-marias.png', cg:'bg-office.png', text:'Is.. is….it really true then..? I– I– Thought- I thought she was only missing– the simulation only said–' },
+  { speaker:'Lairus', sprite:'sprite-lairuss.png', cg:'bg-office.png', text:'Agent Klara Dela Flora is dead. She is a casualty of another anomalous entity back at Folier\'s Inn, the Point Zero of the Dimension you sent them to.' },
+  { speaker:'Maria', sprite:'sprite-marias.png', cg:'bg-office.png', text:'.. y..you mean the kid.' },
+  { speaker:'Lairus', sprite:'sprite-lairuss.png', cg:'bg-office.png', text:'I will not further disclose any other information about our agents and other classified events.' },
+  { speaker:'Maria', sprite:'sprite-marias.png', cg:'bg-office.png', text:'Those. Are… my friends…..They. Told me things. Stories. About DSS.' },
+  { speaker:'Lairus', sprite:'sprite-lairuss.png', cg:'bg-office.png', text:'Well, pardon me, Miss Willows. But from what you just said, you had proven that these agents had breached our Society\'s Protocols.' },
+  { speaker:'Maria', sprite:'sprite-marias.png', cg:'bg-office.png', text:'.. They said something about you too– if you don\'t believe me– you can check the website again. All of the things they told me are there.' },
+  { speaker:'Lairus', sprite:'sprite-lairuss.png', cg:'bg-office.png', text:'There is no need.' },
+  { speaker:'Maria', sprite:'sprite-marias.png', cg:'bg-office.png', text:'So much so. For the Senior Agent they kept talking about.' },
+  { speaker:'Lairus', sprite:'sprite-lairuss.png', cg:'bg-office.png', text:'You\'re the one who sent them to that inn.' },
+  { speaker:'Maria', sprite:'sprite-marias.png', cg:'bg-office.png', text:'I thought I was bringing them home.' },
+  { speaker:'', sprite:'sprite-lairuss.png', cg:'bg-dark.png', text:'' },
+  { speaker:'Maria', sprite:'sprite-marias.png', cg:'bg-office.png', text:'I thought I was helping.' },
+  { speaker:'Lairus', sprite:'sprite-lairuss.png', cg:'bg-office.png', text:'Everyone thought the same once.' },
   { speaker:'', sprite:'', text:'Klara' },
   { speaker:'', sprite:'', cg:'dark.png', text:'021481' },
 ];
@@ -60,7 +62,7 @@ const elCgPh     = document.getElementById('vn-cg-ph');
 const btnNext    = document.getElementById('btn-next');
 const elEndScreen= document.getElementById('vn-end-screen');
 const elEndBtn   = document.getElementById('vn-end-btn');
-const END_URL    = 'https://makuro-ua.github.io/The-Dimension-Sorting-Society/';
+const END_URL    = 'https://makuro-ua.github.io/The-Dimension-Sorting-Society/";';
 
 elEndBtn.href = END_URL;
 
