@@ -2,6 +2,7 @@ const SCENES = [
   { speaker:'Maria', sprite:'sprite-maria.png', cg:'bg-office.png', text:'Oh.' },
   { speaker:'Maria', sprite:'sprite-maria.png', cg:'bg-office.png', text:'... It glitched..' },
   { speaker:'Lairus', sprite:'sprite-lairus.png', cg:'bg-office.png', text:'Yeah. It happens.' },
+  { speaker:'', sprite:'', cg:'bg-office.png', text:'BANG!' },
   { speaker:'Maria', sprite:'sprite-maria.png', cg:'bg-office.png', text:'LAIRUS???!' },
   { speaker:'Maria', sprite:'sprite-maria.png', cg:'bg-office.png', text:'What is wrong with you????' },
   { speaker:'Lairus', sprite:'sprite-lairus.png', cg:'bg-office.png', text:'What? It\'s how we fix things in DSS. Smack it on the side, the next morning, Domaine replaces it. Easy.' },
