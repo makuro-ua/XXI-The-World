@@ -32,7 +32,7 @@ const SCENES = [
   { speaker:'Mauvry', sprite:'sprite-mauvry.png', cg:'bg-dark.png', text:'KLARA\'S DEAD! DEAD! DEAD I TELL YOU, WILLOWS! DEAD, WILLOWS!' },
 
   { speaker:'-', sprite:'sprite-who.png', cg:'bg-dark.png', text:'...' },
-  
+
   { speaker:'Lairus', sprite:'sprite-lairuss.png', cg:'bg-offices.png', text:'Miss Willows, your Dimension\'s Computer Unit is anomalous.' },
   { speaker:'Lairus', sprite:'sprite-lairuss.png', cg:'bg-offices.png', text:'It\'s infected with some kind of anomaly that acts like a computer virus I assume. It infected Mauvry\'s DSS account and seemingly.. it had replicated the online DSS website.' },
   { speaker:'Maria', sprite:'sprite-marias.png', cg:'bg-offices.png', text:'Is.. is….it really true then..? I– I– Thought- I thought she was only missing– the simulation only said–' },
@@ -49,8 +49,8 @@ const SCENES = [
   { speaker:'-', sprite:'sprite-who.png', cg:'bg-dark.png', text:'...' },
   { speaker:'Maria', sprite:'sprite-marias.png', cg:'bg-offices.png', text:'I thought I was helping.' },
   { speaker:'Lairus', sprite:'sprite-lairuss.png', cg:'bg-offices.png', text:'Everyone thought the same once.' },
-  { speaker:'Klara', sprite:'sprite-who.png', text:'Klara' },
-  { speaker:'Klara', sprite:'sprite-who.png', cg:'dark.png', text:'021481' },
+  { speaker:'Klara', sprite:'sprite-who.png', cg:'bg-dark.png', text:'Klara' },
+  { speaker:'Klara', sprite:'sprite-who.png', cg:'bg-dark.png', text:'021481' },
 ];
 
 let current=0, typing=false, typeTimer=null, fullText='', charIdx=0;
@@ -64,7 +64,7 @@ const elCgPh     = document.getElementById('vn-cg-ph');
 const btnNext    = document.getElementById('btn-next');
 const elEndScreen= document.getElementById('vn-end-screen');
 const elEndBtn   = document.getElementById('vn-end-btn');
-const END_URL    = 'https://makuro-ua.github.io/The-Dimension-Sorting-Society/;';
+const END_URL    = 'https://makuro-ua.github.io/The-Dimension-Sorting-Society/';
 
 elEndBtn.href = END_URL;
 
