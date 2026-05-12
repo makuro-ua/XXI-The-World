@@ -31,7 +31,8 @@ const SCENES = [
   { speaker:'Mauvry', sprite:'sprite-mauvry.png', cg:'bg-dark.png', text:'IT\'S YOU– WHY\'D YOU PUT ME HERE?! WHY\'D YOU PUT US HERE?! WE WERE NOTHING BUT NICE TO YOU- WHAT DID WE DO TO DESERVE THIS?! ARE WE SOME SORT OF A PLAYTHING TO YOU?!' },
   { speaker:'Mauvry', sprite:'sprite-mauvry.png', cg:'bg-dark.png', text:'KLARA\'S DEAD! DEAD! DEAD I TELL YOU, WILLOWS! DEAD, WILLOWS!' },
 
-
+  { speaker:'-', sprite:'sprite-who.png', cg:'bg-dark.png', text:'...' },
+  
   { speaker:'Lairus', sprite:'sprite-lairuss.png', cg:'bg-offices.png', text:'Miss Willows, your Dimension\'s Computer Unit is anomalous.' },
   { speaker:'Lairus', sprite:'sprite-lairuss.png', cg:'bg-offices.png', text:'It\'s infected with some kind of anomaly that acts like a computer virus I assume. It infected Mauvry\'s DSS account and seemingly.. it had replicated the online DSS website.' },
   { speaker:'Maria', sprite:'sprite-marias.png', cg:'bg-offices.png', text:'Is.. is….it really true then..? I– I– Thought- I thought she was only missing– the simulation only said–' },
@@ -45,7 +46,7 @@ const SCENES = [
   { speaker:'Maria', sprite:'sprite-marias.png', cg:'bg-offices.png', text:'So much so. For the Senior Agent they kept talking about.' },
   { speaker:'Lairus', sprite:'sprite-lairuss.png', cg:'bg-offices.png', text:'You\'re the one who sent them to that inn.' },
   { speaker:'Maria', sprite:'sprite-marias.png', cg:'bg-offices.png', text:'I thought I was bringing them home.' },
-  { speaker:'-', sprite:'sprite-who.png', cg:'bg-dark.png', text:'' },
+  { speaker:'-', sprite:'sprite-who.png', cg:'bg-dark.png', text:'...' },
   { speaker:'Maria', sprite:'sprite-marias.png', cg:'bg-offices.png', text:'I thought I was helping.' },
   { speaker:'Lairus', sprite:'sprite-lairuss.png', cg:'bg-offices.png', text:'Everyone thought the same once.' },
   { speaker:'Klara', sprite:'sprite-who.png', text:'Klara' },
