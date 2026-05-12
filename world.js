@@ -45,6 +45,8 @@ const SCENES = [
   { speaker:'', sprite:'sprite-lairus.png', cg:'bg-dark.png', text:'' },
   { speaker:'Maria', sprite:'sprite-maria.png', cg:'bg-office.png', text:'I thought I was helping.' },
   { speaker:'Lairus', sprite:'sprite-lairus.png', cg:'bg-office.png', text:'Everyone thought the same once.' },
+  { speaker:'', sprite:'', text:'Klara' },
+  { speaker:'', sprite:'', cg:'dark.png', text:'021481' },
 ];
 
 let current=0, typing=false, typeTimer=null, fullText='', charIdx=0;
