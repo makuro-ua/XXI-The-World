@@ -62,7 +62,7 @@ const elCgPh     = document.getElementById('vn-cg-ph');
 const btnNext    = document.getElementById('btn-next');
 const elEndScreen= document.getElementById('vn-end-screen');
 const elEndBtn   = document.getElementById('vn-end-btn');
-const END_URL    = 'https://makuro-ua.github.io/The-Dimension-Sorting-Society/";';
+const END_URL    = 'https://makuro-ua.github.io/The-Dimension-Sorting-Society/;';
 
 elEndBtn.href = END_URL;
 
