@@ -182,3 +182,39 @@ html, body {
   padding: 8px;
   background: rgba(80,20,10,0.5);
 }
+
+.vn-end-screen {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.vn-end-screen.visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.vn-end-btn {
+  color: #f5ede0;
+  background: #3d1010;
+  border: 1px solid #c4a882;
+  text-decoration: none;
+  font-family: 'Courier Prime', monospace;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 14px 32px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.vn-end-btn:hover {
+  background: #5c1a1a;
+}

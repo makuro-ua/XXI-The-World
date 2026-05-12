@@ -56,6 +56,11 @@ const elSpritePh = document.getElementById('vn-sprite-ph');
 const elCg       = document.getElementById('vn-cg');
 const elCgPh     = document.getElementById('vn-cg-ph');
 const btnNext    = document.getElementById('btn-next');
+const elEndScreen= document.getElementById('vn-end-screen');
+const elEndBtn   = document.getElementById('vn-end-btn');
+const END_URL    = 'https://example.com';
+
+elEndBtn.href = END_URL;
 
 function loadScene(idx) {
   const s = SCENES[idx];
@@ -94,7 +99,16 @@ function skipOrAdvance() {
     elTyped.textContent = fullText;
     return;
   }
-  if (current < SCENES.length-1) { current++; loadScene(current); }
+  if (current < SCENES.length-1) {
+    current++; loadScene(current);
+  } else {
+    triggerEnd();
+  }
+}
+
+function triggerEnd() {
+  elEndScreen.classList.add('visible');
+  elEndBtn.classList.add('visible');
 }
 
 loadScene(0);
